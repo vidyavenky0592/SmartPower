@@ -10,3 +10,4 @@ class Alert : AppCompatActivity() {
         setContentView(R.layout.activity_alert)
     }
 }
+
