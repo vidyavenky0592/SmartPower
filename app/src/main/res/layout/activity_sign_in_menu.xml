@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".SignInMenu">
+
+    <Button
+            android:text="Report An Incident"
+            android:layout_width="129dp"
+            android:layout_height="71dp"
+            android:layout_alignParentTop="true" android:id="@+id/cust_ri" android:layout_marginTop="152dp"
+            android:layout_alignParentRight="true" android:layout_alignParentEnd="true"
+            android:layout_marginRight="58dp" android:layout_marginEnd="58dp"
+            style="@android:style/Widget.DeviceDefault.Button.Colored"
+            android:background="@color/design_default_color_primary"/>
+    <TextView
+            android:text="Welcome Vidya!"
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true" android:id="@+id/textView" android:layout_marginTop="22dp"
+            app:fontFamily="sans-serif" android:textSize="30sp"
+            android:textColor="@color/design_default_color_primary" android:textStyle="bold"
+            android:layout_alignParentRight="true" android:layout_alignParentEnd="true"
+            android:layout_marginRight="68dp" android:layout_marginEnd="68dp"/>
+    <Button
+            android:text="Smart Home"
+            android:layout_width="125dp"
+            android:layout_height="76dp" android:layout_alignParentTop="true" android:id="@+id/cust_sh"
+            android:layout_marginTop="150dp" android:layout_alignStart="@+id/textView"
+            android:layout_marginStart="-64dp" style="@style/Widget.AppCompat.Button"
+            android:background="@color/design_default_color_primary" android:textColor="@android:color/white"/>
+    <Button
+            android:text="Pay Bills"
+            android:layout_width="121dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="53dp" android:layout_alignParentLeft="true"
+            android:id="@+id/recharge_button" android:layout_marginLeft="53dp"
+            style="@android:style/Widget.DeviceDefault.Button.Colored"
+            android:background="@color/design_default_color_primary" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="267dp" android:layout_height="79dp"/>
+    <Button
+            android:text="Safety"
+            android:layout_width="121dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="55dp" android:layout_alignParentLeft="true"
+            android:id="@+id/safety_button" android:layout_marginLeft="55dp"
+            style="@android:style/Widget.DeviceDefault.Button.Colored"
+            android:background="@color/design_default_color_primary" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="151dp" android:layout_height="79dp"/>
+    <Button
+            android:text="Alerts !!"
+            android:layout_width="121dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="233dp" android:layout_alignParentLeft="true"
+            android:id="@+id/alerts" android:layout_marginLeft="233dp"
+            style="@android:style/Widget.DeviceDefault.Button.Colored"
+            android:background="@color/design_default_color_primary" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="148dp" android:layout_height="79dp"/>
+    <Button
+            android:text="Tips to Save Energy"
+            android:layout_width="121dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="229dp" android:layout_alignParentLeft="true"
+            android:id="@+id/button2" android:layout_marginLeft="229dp"
+            style="@android:style/Widget.DeviceDefault.Button.Colored"
+            android:background="@color/design_default_color_primary" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="269dp" android:layout_height="79dp"/>
+    <ImageButton
+            android:layout_width="67dp"
+            android:layout_height="69dp" tools:srcCompat="@tools:sample/avatars"
+            android:layout_alignParentEnd="true" android:layout_alignParentTop="true" android:id="@+id/imageButton"
+            android:layout_marginTop="7dp" android:layout_marginEnd="341dp"/>
+    <ImageView
+            android:layout_width="171dp"
+            android:layout_height="62dp" app:srcCompat="@drawable/dominion_energy"
+            android:layout_alignParentBottom="true" android:id="@+id/imageView"
+            android:layout_marginBottom="33dp" android:layout_marginTop="493dp" android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/cust_ri" android:layout_marginStart="-100dp"/>
+    <TextView
+            android:text="Rewards: 200 points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageButton" android:layout_marginStart="102dp" android:id="@+id/textView3"
+            android:textSize="24sp" android:textColor="@color/colorPrimary" android:layout_marginTop="12dp"/>
+
+    <ImageView
+            android:layout_width="171dp"
+            android:layout_height="62dp" app:srcCompat="@drawable/dominion_energy"
+            android:layout_alignParentBottom="true" android:id="@+id/imageView"
+            android:layout_marginBottom="33dp" android:layout_marginTop="493dp" android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/cust_ri" android:layout_marginStart="-100dp"/>
+
+</RelativeLayout>
