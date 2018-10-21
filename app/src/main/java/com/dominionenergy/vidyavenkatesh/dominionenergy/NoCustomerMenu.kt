@@ -11,7 +11,7 @@ class NoCustomerMenu : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_no_customer_menu)
 
-        ncust_safety.setOnClickListener {
+        ncust_create_account2.setOnClickListener {
 
             val intent = Intent(this,CreateAccount::class.java)
             startActivity(intent)

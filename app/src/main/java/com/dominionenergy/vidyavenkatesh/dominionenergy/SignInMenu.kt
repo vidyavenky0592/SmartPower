@@ -26,7 +26,7 @@ class SignInMenu : AppCompatActivity() {
 
         recharge_button.setOnClickListener {
 
-            val intent = Intent(this,ReportIncident::class.java)
+            val intent = Intent(this,Recharge_menu::class.java)
 
             startActivity(intent)
         }
@@ -43,6 +43,13 @@ class SignInMenu : AppCompatActivity() {
             val intent = Intent(this,Alert::class.java)
 
             startActivity(intent)
+        }
+
+        tips_save.setOnClickListener {
+            val intent = Intent(this,TipsEnergy::class.java)
+
+            startActivity(intent)
+
         }
 
     }

@@ -30,7 +30,7 @@
             tools:layout_editor_absoluteX="135dp" android:id="@+id/button9"
             style="@style/Widget.AppCompat.Button.Colored" android:background="@color/design_default_color_primary"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="328dp" android:layout_marginEnd="143dp" android:layout_alignParentEnd="true"/>
+            android:layout_marginTop="329dp" android:layout_marginEnd="148dp" android:layout_alignParentEnd="true"/>
     <ImageView
             android:layout_width="325dp"
             android:layout_height="28dp" app:srcCompat="@drawable/last_statemnet"
